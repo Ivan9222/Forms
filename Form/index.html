@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+
+<body>
+    <form actoin="">
+        <h3>Форма регистрации</h3>
+        <p>
+            Ведите ФИО: <input type="text" placeholder="ФИО">
+        </p>
+        <p>
+            Ведите пароль: <input type="password" placeholder="пароль">
+        </p>
+        <h3>какой диск вы хотите получить</h3>
+        <p><label>
+                <input type="radio" name="work"> CD
+            </label>
+        </p>
+        <p><label>
+                <input type="radio" name="work"> DVD
+            </label>
+        </p>
+
+        <h3>Какие обучаюшие курсы вы хотите увидеть на курсе</h3>
+        <p>
+            <lable for="">
+                <input type="checkbox" name="" id="Курс по фотошопу"> Курс по фотошопу
+            </lable>
+        </p>
+        <p>
+            <lable>
+                <input type="checkbox" name="" id="Курс по Adobe dreawaever"> Курс по Adobe dreawaever
+            </lable>
+        </p>
+        <p>
+            <lable>
+                <input type="checkbox" name="" id="Курс по PHP"> Курс по PHP
+            </lable>
+        </p>
+        <h3>Выбор способ доставки</h3>
+        <select name="Delivery" id="">
+            <option value="Delivery by courier">доставка курьером</option>
+            <option value="Point of issue">пункт выдачи</option>
+        </select>
+        <h3>Ведите адрес для доставки</h3>
+        <p>
+            <textarea name="" id="" cols="50" rows="10"></textarea>
+        </p>
+        <input type="submit" value="Сделать заказ">
+        <button type="reset">Отмена</button>
+    </form>
+</body>
+
+</html>
